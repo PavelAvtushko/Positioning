@@ -1,0 +1,197 @@
+body
+{
+    height: 2000px;
+    width: 1250px;
+    margin: auto;
+}
+
+div
+{
+    display: block;
+}
+
+a:hover
+{
+    filter: alpha(opacity=0.8);
+    opacity: 0.8;
+}
+
+img
+{
+    border-radius: 50%;
+}
+
+li
+{
+    list-style-type: none;
+    display: inline-block;
+    position: relative;
+}
+
+
+.header
+{
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+}
+
+.header div
+{
+    border-radius: 50%;
+    margin: 5px 5px 20px 5px;
+    position: absolute;
+}
+
+
+.backPicture
+{
+    width: 250px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: blue;
+    margin: auto;
+    filter: alpha(opacity=0.5);
+    opacity: 0.5;
+}
+
+.list div
+{
+    padding: 0;
+    width: 42px;
+    height: 42px;
+    background-image: url("../img/SocialNet.png");
+}
+
+
+.iconTwitter
+{
+    background-position: -65px -6px;
+    left: -35px;
+}
+
+.iconPinterest
+{
+    background-position: -8px -6px;
+    top:200px;
+    left: 80px;
+}
+
+.iconTumblr
+{
+    background-position: -122px -6px;
+    top:120px;
+    left: 180px;
+}
+
+.iconFacebook
+{
+    background-position: -184px -7px;
+    top:172px;
+    left: 152px;
+}
+
+.container
+{
+    display: inline-block;
+    position: relative;
+    width: 550px;
+    height: 700px;
+    margin-right: 500px;
+    margin-top: -120px;
+    left: 350px;
+}
+
+.firstPage, .secondPage, .thirdPage
+
+{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.firstPage
+{
+    background-color: red;
+    z-index: 3;
+}
+
+.secondPage
+{
+    background-color: blue;
+    z-index: 2;
+    top:10px;
+    left:10px;
+}
+
+.thirdPage
+{
+    background-color: aqua;
+    z-index: 1;
+    top:20px;
+    left:20px;
+}
+
+.baner
+{
+    height: 150px;
+    z-index: 5;
+    position: fixed;	
+	padding-right: 20px;
+    margin-left: 840px;
+    top: 70%;
+}
+
+.backGround
+{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    filter: alpha(opacity=0.5);
+    opacity: 0.5;
+    position: relative;
+    z-index: 5;
+}
+
+.yellowCub
+{
+    height: 110px;
+    width: 110px;	
+    background-color: yellow;	
+    margin-top: -130px;
+    left: 20px;
+    z-index: 5;
+    position: relative;
+}
+
+.contactData
+{	
+    position: relative;
+    overflow: auto;
+    height: 110px;
+    width: 280px;
+    margin-top: -110px;
+    margin-left: 140px;
+    z-index: 5;
+}
+
+.contactData div
+{
+    color: white;
+    font-size: 0.9em;
+    font-family: Verdana, sans-serif;
+    z-index: 5;
+}
+
+.contactData div:first-child
+{
+    height: 35px;
+}
+
+.contactData span
+{
+    font-weight: bold;
+}
+
+
+
